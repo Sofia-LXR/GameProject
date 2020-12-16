@@ -5,33 +5,9 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
-    private static PlayerController player;
-
     public int Speed=3;
     private Rigidbody rigidbody;
     
-    public static PlayerController Player
-    {
-        get
-        {
-            return player;
-        }
-    }
-
-    private void Awake()
-    {
-        if(player  == null)
-        {
-            player = this;
-        }
-        else
-        {
-            Destroy(gameObject);
-        }
-        
-    }
-    
-
     private void Start()
     {
         rigidbody = GetComponent<Rigidbody>();
@@ -64,9 +40,6 @@ public class PlayerController : MonoBehaviour
     }
     private void OnTriggerEnter(Collider other)
     {
-        if(other.name == "Portal")
-        {
-            PlayerController.player.Speed()
-        }
+        
     }
 }
