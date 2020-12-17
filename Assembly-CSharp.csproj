@@ -64,6 +64,7 @@
     <Compile Include="Assets\Scripts\CameraController.cs" />
     <Compile Include="Assets\Scripts\Depot.cs" />
     <Compile Include="Assets\Scripts\DepotsBorn.cs" />
+    <Compile Include="Assets\Scripts\LoadScenes.cs" />
     <Compile Include="Assets\Scripts\NPCar_Data.cs" />
     <Compile Include="Assets\Scripts\NPCCar.cs" />
     <Compile Include="Assets\Scripts\PlayerController.cs" />
