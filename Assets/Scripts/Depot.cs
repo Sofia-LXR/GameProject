@@ -23,6 +23,7 @@ public class Depot : MonoBehaviour
         if (col.gameObject.tag == "Player")
         {
             Destroy(this.gameObject);
+           
         }
     }
 }

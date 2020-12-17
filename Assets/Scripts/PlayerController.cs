@@ -7,7 +7,8 @@ public class PlayerController : MonoBehaviour
 {
     public int Speed=3;
     private Rigidbody rigidbody;
-    
+    private static int getDepots;
+
     private void Start()
     {
         rigidbody = GetComponent<Rigidbody>();

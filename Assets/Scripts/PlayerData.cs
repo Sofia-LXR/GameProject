@@ -16,6 +16,7 @@ public class PlayerData : MonoBehaviour
      public int GetDepots()
     {
         int getdepot = 0;
+
         return getdepot;
     }
 }
