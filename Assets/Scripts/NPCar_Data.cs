@@ -4,6 +4,5 @@ using UnityEngine;
 
 public class NPCar_Data
 {
-    public GameObject NPC;
     
 }

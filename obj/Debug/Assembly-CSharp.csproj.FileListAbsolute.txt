@@ -282,3 +282,4 @@ D:\Unity2018\All Project\CheckpointGame\obj\Debug\Assembly-CSharp.csproj.CoreCom
 D:\Unity2018\All Project\CheckpointGame\obj\Debug\Assembly-CSharp.csproj.CopyComplete
 D:\Unity2018\All Project\CheckpointGame\obj\Debug\Assembly-CSharp.dll
 D:\Unity2018\All Project\CheckpointGame\obj\Debug\Assembly-CSharp.pdb
+D:\Unity2018\All Project\CheckpointGame\Temp\bin\Debug\Assembly-CSharp-firstpass.pdb

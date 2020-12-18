@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Portal : MonoBehaviour
 {
-    public GameObject Canvas;
+    public GameObject Panel;
     void Start()
     {
         
@@ -19,12 +19,11 @@ public class Portal : MonoBehaviour
     {
         if (other.tag == "Player")
         {
-            Canvas.SetActive(true);
+            Panel.SetActive(true);
             AudioSource source = this.GetComponent<AudioSource>();
-            source.clip=AudioManager.Instance.PlayAudio("Audio001");//返回一个clip
+            source.clip = Resources.Load<AudioClip>("Audio/Audio001");
             source.Play();
         }
          
-
     }
 }
