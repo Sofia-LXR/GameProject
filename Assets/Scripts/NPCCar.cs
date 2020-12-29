@@ -9,7 +9,6 @@ public class NPCCar : MonoBehaviour
     GameObject NPC;
     public Transform[] NPCCarpoint_pos;
     int index;
-    float timer;
     // Start is called before the first frame update
     void Start()
     {
@@ -22,9 +21,6 @@ public class NPCCar : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        timer += Time.deltaTime;
-        //Debug.Log(timer);
-        
         if (NPC.GetComponent<NavMeshAgent>().remainingDistance < 0.2f)
         {
             index++;
