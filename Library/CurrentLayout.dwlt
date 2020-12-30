@@ -110,10 +110,10 @@ MonoBehaviour:
     y: 30
     width: 1536
     height: 771
-  m_MinSize: {x: 809, y: 250}
-  m_MaxSize: {x: 22004, y: 10000}
+  m_MinSize: {x: 807, y: 250}
+  m_MaxSize: {x: 22002, y: 10000}
   vertical: 1
-  controlID: 2600
+  controlID: 3288
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -137,10 +137,10 @@ MonoBehaviour:
     y: 0
     width: 1536
     height: 771
-  m_MinSize: {x: 809, y: 250}
-  m_MaxSize: {x: 22004, y: 10000}
+  m_MinSize: {x: 807, y: 250}
+  m_MaxSize: {x: 22002, y: 10000}
   vertical: 0
-  controlID: 2601
+  controlID: 3289
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -356,13 +356,13 @@ MonoBehaviour:
   m_PersistentViewDataDictionary: {fileID: 0}
   m_WindowGUID: e106fb76e3b00db4bb1ced44f6ea1619
   m_SceneLighting: 1
-  m_2DMode: 0
+  m_2DMode: 1
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 7.013787, y: -2.38125, z: 36.32094}
+    m_Target: {x: 179.26407, y: 128.0439, z: -8.25}
     speed: 2
-    m_Value: {x: 7.013787, y: -2.38125, z: 36.32094}
+    m_Value: {x: 179.26407, y: 128.0439, z: -8.25}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -382,21 +382,21 @@ MonoBehaviour:
       speed: 2
       m_Value: 0
     yGrid:
-      m_Target: 1
-      speed: 2
-      m_Value: 1
-    zGrid:
       m_Target: 0
       speed: 2
       m_Value: 0
+    zGrid:
+      m_Target: 1
+      speed: 2
+      m_Value: 1
   m_Rotation:
-    m_Target: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
+    m_Target: {x: 0, y: 0, z: 0, w: 1}
     speed: 2
-    m_Value: {x: -0.7071068, y: 0, z: -0, w: -0.7071068}
+    m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 114.542816
+    m_Target: 1153.4983
     speed: 2
-    m_Value: 114.542816
+    m_Value: 1153.4983
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -526,9 +526,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 002b0000
+      m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 823effffe84bffffce86ffffd6fbffff
+      m_ExpandedIDs: 0093ffff2093ffff4897ffff5a97ffff76a9ffff7ca9ffff0cb4ffff12b4ffffccd2ffff1ceeffffd6fbffffe05c000056640000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -590,20 +590,20 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scenes
+    - Assets
   m_ViewMode: 1
   m_StartGridSize: 96
   m_LastFolders:
-  - Assets/Scenes
+  - Assets
   m_LastFoldersGridSize: 96
   m_LastProjectPath: D:\Unity2018\All Project\CheckpointGame
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 822b0000
-    m_LastClickedID: 11138
-    m_ExpandedIDs: 00000000e8290000b22a0000822b0000542d0000823200007e48000080480000824800008448000086480000884800008a4800008c4800008e4800009048000000ca9a3b
+    m_SelectedIDs: ea290000
+    m_LastClickedID: 10730
+    m_ExpandedIDs: 00000000ea290000b42a0000542d0000823200002e42000030420000324200003442000036420000384200003a4200003c4200003e4200004042000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -631,7 +631,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: d82d0000
     m_LastClickedID: 11736
-    m_ExpandedIDs: 00000000e8290000b22a0000822b0000542d0000823200007e48000080480000824800008448000086480000884800008a4800008c4800008e4800009048000000ca9a3b
+    m_ExpandedIDs: 00000000ea290000b42a0000542d0000823200002e42000030420000324200003442000036420000384200003a4200003c4200003e4200004042000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -683,7 +683,7 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
     m_NewAssetIndexInList: -1
-    m_ScrollPosition: {x: 0, y: 0}
+    m_ScrollPosition: {x: 0, y: 432}
     m_GridSize: 96
   m_DirectoriesAreaWidth: 187
 --- !u!114 &17
